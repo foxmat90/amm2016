@@ -1,0 +1,238 @@
+   @media only screen and (min-width: 1024px) 
+                   	
+{	
+
+	
+
+body {
+  background: #E5E5E5;
+  font-family: sans-serif;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%
+ 
+}
+h1 {
+  color: #dd4b39;
+  border-bottom: 1px 
+  solid #dd4b39;
+}
+h2 {color: #dd4b39; font-size: 24px; font-style:italic;}
+h3 {color: #dd4b39; font-size: 12px; font-style:italic;}
+p {font-size: 12px; font-style:italic; color: #222222; font-family:sans-serif margin}
+a {font-size: 12px; font-style:italic; color: #222222 ;margin: 10px}
+
+
+th {color: #dd4b39; font-size: 15px; font-style:italic}
+tr:nth-child(even) {background-color: #f2f2f2}
+th {
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+   width: 20%;
+   
+    
+}
+
+form {
+    
+    width: 90%
+    
+    
+}
+
+table {
+    width: 90%
+    
+}
+
+input {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: inherit;
+   
+}
+
+input:focus{
+    	background-color: #A0FFFF;
+        border-style :solid
+}
+
+textarea:focus{
+    background-color: #A0FFFF;
+      border-style :solid
+}
+
+.button {
+  position: relative;
+  left: 30%;
+  right: 30%;
+  border-style: groove;
+  border-width: 5px;
+  background-color: #FFFFE0 
+
+ 
+}
+.button:focus {
+    background-color: #A0FFFF;
+    
+}
+
+nav {
+    background-color: #ADD8E6;
+    width: 90%;
+}
+
+
+#footer {
+    background-color: lightgrey;
+    margin-top: 90%
+    
+    
+}
+#sidebar{
+    
+    position: relative;
+   margin-top: 10%;
+    float:right; display:block; width:150px; height:150px;
+
+}      
+
+#content{
+    width: 80%;
+    float:left; display:block;
+    
+    
+}.icon-title {
+
+}
+#menu{
+    
+    
+}
+}
+
+
+  @media only screen and (max-width: 1023px) 
+                   	
+{	
+
+	
+
+body {
+  background: #E5E5E5;
+  font-family: sans-serif;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%
+ 
+}
+h1 {
+  color: #dd4b39;
+  border-bottom: 1px 
+  solid #dd4b39;
+}
+h2 {color: #dd4b39; font-size: 24px; font-style:italic;}
+h3 {color: #dd4b39; font-size: 12px; font-style:italic;}
+p {font-size: 12px; font-style:italic; color: #222222; font-family:sans-serif margin}
+a {font-size: 12px; font-style:italic; color: #222222 ;margin: 10px}
+
+
+th {color: #dd4b39; font-size: 15px; font-style:italic}
+tr:nth-child(even) {background-color: #f2f2f2}
+th {
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+   width: 100px;
+   
+    
+}
+
+form {
+    
+    width: 500px
+    
+    
+}
+
+table {
+    width: 500px
+    
+}
+
+input {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: inherit;
+   
+}
+
+input:focus{
+    	background-color: #A0FFFF;
+        border-style :solid
+}
+
+textarea:focus{
+    background-color: #A0FFFF;
+      border-style :solid
+}
+
+.button {
+  position: relative;
+  left: 30%;
+  right: 30%;
+  border-style: groove;
+  border-width: 5px;
+  background-color: #FFFFE0 
+
+ 
+}
+.button:focus {
+    background-color: #A0FFFF;
+    
+}
+
+nav {
+    background-color: #ADD8E6;
+    width: 800px;
+}
+
+
+#footer {
+    background-color: lightgrey;
+    margin-top: 800px
+    
+    
+}
+#sidebar{
+    
+    position: relative;
+   margin-top: 50px;
+    width: 150px;
+    float:right; display:block; height:150px;
+    margin-right: 300px;
+    display: none;
+
+}      
+
+#content{
+    width: 400px;
+    float:left; display:block;
+    
+    
+    
+}.icon-title {
+
+}
+#menu{
+    
+    
+}
+}
